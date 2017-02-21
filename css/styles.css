@@ -3,7 +3,13 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 10px;
+    background-color: lightblue;
 }
+
+html{
+    background-color:lightsteelblue;
+}
+
 
 .error {
     color: red;
@@ -70,3 +76,25 @@ nav ul li {
 nav #user-account {
     float: right;
 }
+
+
+.bar {
+background-color:DeepSkyBlue;
+border-radius:15px;
+}
+        .bar a:link{
+            color:white;
+            padding: 10px 10px;
+            background-color:DodgerBlue;
+            text-align: center;
+            border-radius:15px;
+    text-decoration: none;
+            display: inline-block;}
+        .bar a:visited {
+            color:lightgrey;
+            background-color:DodgerBlue;
+            padding: 10px 10px;
+            text-align: center;
+            border-radius:15px;
+    text-decoration: none;
+            display: inline-block;}
